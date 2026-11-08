@@ -20,8 +20,23 @@
         body{
             background-color: rgb(22, 22, 22);
         }
+        .flex-container{
+            display: flex;
+            gap: 16px;
+        }
+        .itemWithBorder{
+            font-family: MonoCraft;
+            color: rgb(143, 143, 143);
+            border: 10px solid rgb(0, 110, 255);
+            padding: 10px;
+        }
     </style>
 </head>
+    <div class="flex-container" style="padding: 10px;">
+        <div class="itemWithBorder">im</div>
+        <div class="itemWithBorder">dead</div>
+        <div class="itemWithBorder">bro</div>
+    </div>
     <table style="padding: 10px;">
         <tr>
             <th >Level</th>
@@ -34,4 +49,5 @@
             <td><div class="box"></div></th>
         </tr>
     </table>
+    
 </html>
